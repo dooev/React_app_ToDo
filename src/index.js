@@ -5,6 +5,11 @@ const el = (  // создание Реакт элемента (jsx) оборач
   <div>
     <h1>Dimasik this is React</h1>
     <h2>My Todo List</h2>
-
+    <input placeholder='search'/>
+    <ul>
+      <li>Learn React</li>
+      <li>Build Awesome App</li>
+    </ul>
   </div>
 );
+ReactDOM.render(el, document.getElementById('root')); // рендерим элемент отправляя его в контейнер в index.html
